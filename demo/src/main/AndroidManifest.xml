@@ -27,7 +27,8 @@
         </activity>
         <activity
             android:name=".FullScreenVideoPlayerActivity"
-            android:label="@string/title_activity_audio_player" >
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_video_fullscreen" >
         </activity>
 
         <service
